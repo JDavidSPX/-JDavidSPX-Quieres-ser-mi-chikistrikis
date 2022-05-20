@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+.container {
+    background: wheat;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: xx-large;
+    padding: 10%;
+    font-family: cursive;
+}
+
+button {
+    font-size: x-large;
+    padding: 0.75em;
+    border-radius: 15px;
+    background: rosybrown;
+    cursor: pointer;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
